@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1401BCBC1E977DDE00C99E35 /* _FDFullscreenPopGestureRecognizerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401BCBB1E977DDE00C99E35 /* _FDFullscreenPopGestureRecognizerDelegate.m */; };
+		145357BE1E97318000C07BD9 /* PopGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145357BD1E97318000C07BD9 /* PopGestureViewController.m */; };
+		145357C21E97601C00C07BD9 /* ViewControllerWithBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 145357C11E97601C00C07BD9 /* ViewControllerWithBar.m */; };
+		145357C71E97605700C07BD9 /* ViewControllerWithoutBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 145357C61E97605700C07BD9 /* ViewControllerWithoutBar.m */; };
+		145357CA1E97606C00C07BD9 /* ViewControllerWithScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 145357C91E97606C00C07BD9 /* ViewControllerWithScrollView.m */; };
+		145357D11E97737300C07BD9 /* UIViewController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 145357D01E97737300C07BD9 /* UIViewController+FDFullscreenPopGesture.m */; };
+		145357D41E97738A00C07BD9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 145357D31E97738A00C07BD9 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		14A5D89D1E99E305009C7DB0 /* ViewControllerWithoutBar2.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5D89C1E99E305009C7DB0 /* ViewControllerWithoutBar2.m */; };
+		14A5D8A11E99E5EB009C7DB0 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5D8A01E99E5EB009C7DB0 /* MyScrollView.m */; };
+		14E068441E9621F6000E8AD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E068431E9621F6000E8AD9 /* main.m */; };
+		14E068471E9621F6000E8AD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E068461E9621F6000E8AD9 /* AppDelegate.m */; };
+		14E0684A1E9621F6000E8AD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E068491E9621F6000E8AD9 /* ViewController.m */; };
+		14E0684D1E9621F6000E8AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E0684B1E9621F6000E8AD9 /* Main.storyboard */; };
+		14E0684F1E9621F6000E8AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E0684E1E9621F6000E8AD9 /* Assets.xcassets */; };
+		14E068521E9621F6000E8AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E068501E9621F6000E8AD9 /* LaunchScreen.storyboard */; };
+		14E0685B1E962370000E8AD9 /* MyNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E0685A1E962370000E8AD9 /* MyNavigationVC.m */; };
+		14E0685E1E962634000E8AD9 /* Pushed1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E0685D1E962634000E8AD9 /* Pushed1ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1401BCBA1E977DDE00C99E35 /* _FDFullscreenPopGestureRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FDFullscreenPopGestureRecognizerDelegate.h; sourceTree = "<group>"; };
+		1401BCBB1E977DDE00C99E35 /* _FDFullscreenPopGestureRecognizerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FDFullscreenPopGestureRecognizerDelegate.m; sourceTree = "<group>"; };
+		145357BC1E97318000C07BD9 /* PopGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopGestureViewController.h; sourceTree = "<group>"; };
+		145357BD1E97318000C07BD9 /* PopGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopGestureViewController.m; sourceTree = "<group>"; };
+		145357C01E97601C00C07BD9 /* ViewControllerWithBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerWithBar.h; sourceTree = "<group>"; };
+		145357C11E97601C00C07BD9 /* ViewControllerWithBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWithBar.m; sourceTree = "<group>"; };
+		145357C51E97605700C07BD9 /* ViewControllerWithoutBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerWithoutBar.h; sourceTree = "<group>"; };
+		145357C61E97605700C07BD9 /* ViewControllerWithoutBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWithoutBar.m; sourceTree = "<group>"; };
+		145357C81E97606C00C07BD9 /* ViewControllerWithScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerWithScrollView.h; sourceTree = "<group>"; };
+		145357C91E97606C00C07BD9 /* ViewControllerWithScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWithScrollView.m; sourceTree = "<group>"; };
+		145357CF1E97737300C07BD9 /* UIViewController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		145357D01E97737300C07BD9 /* UIViewController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		145357D21E97738A00C07BD9 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		145357D31E97738A00C07BD9 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		14A5D89B1E99E305009C7DB0 /* ViewControllerWithoutBar2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerWithoutBar2.h; sourceTree = "<group>"; };
+		14A5D89C1E99E305009C7DB0 /* ViewControllerWithoutBar2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWithoutBar2.m; sourceTree = "<group>"; };
+		14A5D89F1E99E5EB009C7DB0 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		14A5D8A01E99E5EB009C7DB0 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		14E0683F1E9621F6000E8AD9 /* charmingNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = charmingNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E068431E9621F6000E8AD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E068451E9621F6000E8AD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14E068461E9621F6000E8AD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14E068481E9621F6000E8AD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14E068491E9621F6000E8AD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14E0684C1E9621F6000E8AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E0684E1E9621F6000E8AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14E068511E9621F6000E8AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14E068531E9621F6000E8AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E068591E962370000E8AD9 /* MyNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationVC.h; sourceTree = "<group>"; };
+		14E0685A1E962370000E8AD9 /* MyNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationVC.m; sourceTree = "<group>"; };
+		14E0685C1E962634000E8AD9 /* Pushed1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pushed1ViewController.h; sourceTree = "<group>"; };
+		14E0685D1E962634000E8AD9 /* Pushed1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pushed1ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E0683C1E9621F6000E8AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145357BB1E97316200C07BD9 /* PopGestureVC */ = {
+			isa = PBXGroup;
+			children = (
+				145357BC1E97318000C07BD9 /* PopGestureViewController.h */,
+				145357BD1E97318000C07BD9 /* PopGestureViewController.m */,
+				14A5D89E1E99E5D5009C7DB0 /* ScrollView */,
+				145357C41E97603300C07BD9 /* ControllerWithScrollView */,
+				145357C31E97602100C07BD9 /* ControllerWithoutBar */,
+				145357BF1E975FD200C07BD9 /* ControllerWithBar */,
+			);
+			name = PopGestureVC;
+			sourceTree = "<group>";
+		};
+		145357BF1E975FD200C07BD9 /* ControllerWithBar */ = {
+			isa = PBXGroup;
+			children = (
+				145357C01E97601C00C07BD9 /* ViewControllerWithBar.h */,
+				145357C11E97601C00C07BD9 /* ViewControllerWithBar.m */,
+			);
+			name = ControllerWithBar;
+			sourceTree = "<group>";
+		};
+		145357C31E97602100C07BD9 /* ControllerWithoutBar */ = {
+			isa = PBXGroup;
+			children = (
+				145357C51E97605700C07BD9 /* ViewControllerWithoutBar.h */,
+				145357C61E97605700C07BD9 /* ViewControllerWithoutBar.m */,
+				14A5D89B1E99E305009C7DB0 /* ViewControllerWithoutBar2.h */,
+				14A5D89C1E99E305009C7DB0 /* ViewControllerWithoutBar2.m */,
+			);
+			name = ControllerWithoutBar;
+			sourceTree = "<group>";
+		};
+		145357C41E97603300C07BD9 /* ControllerWithScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				145357C81E97606C00C07BD9 /* ViewControllerWithScrollView.h */,
+				145357C91E97606C00C07BD9 /* ViewControllerWithScrollView.m */,
+			);
+			name = ControllerWithScrollView;
+			sourceTree = "<group>";
+		};
+		145357CB1E9772F000C07BD9 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				1401BCBA1E977DDE00C99E35 /* _FDFullscreenPopGestureRecognizerDelegate.h */,
+				1401BCBB1E977DDE00C99E35 /* _FDFullscreenPopGestureRecognizerDelegate.m */,
+				145357D21E97738A00C07BD9 /* UINavigationController+FDFullscreenPopGesture.h */,
+				145357D31E97738A00C07BD9 /* UINavigationController+FDFullscreenPopGesture.m */,
+				145357CF1E97737300C07BD9 /* UIViewController+FDFullscreenPopGesture.h */,
+				145357D01E97737300C07BD9 /* UIViewController+FDFullscreenPopGesture.m */,
+			);
+			name = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		14A5D89E1E99E5D5009C7DB0 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				14A5D89F1E99E5EB009C7DB0 /* MyScrollView.h */,
+				14A5D8A01E99E5EB009C7DB0 /* MyScrollView.m */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		14E068361E9621F6000E8AD9 = {
+			isa = PBXGroup;
+			children = (
+				14E068411E9621F6000E8AD9 /* charmingNavigationBar */,
+				14E068401E9621F6000E8AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E068401E9621F6000E8AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E0683F1E9621F6000E8AD9 /* charmingNavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E068411E9621F6000E8AD9 /* charmingNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				14E068451E9621F6000E8AD9 /* AppDelegate.h */,
+				14E068461E9621F6000E8AD9 /* AppDelegate.m */,
+				14E068591E962370000E8AD9 /* MyNavigationVC.h */,
+				14E0685A1E962370000E8AD9 /* MyNavigationVC.m */,
+				145357CB1E9772F000C07BD9 /* FDFullscreenPopGesture */,
+				145357BB1E97316200C07BD9 /* PopGestureVC */,
+				14E0685C1E962634000E8AD9 /* Pushed1ViewController.h */,
+				14E0685D1E962634000E8AD9 /* Pushed1ViewController.m */,
+				14E068481E9621F6000E8AD9 /* ViewController.h */,
+				14E068491E9621F6000E8AD9 /* ViewController.m */,
+				14E0684B1E9621F6000E8AD9 /* Main.storyboard */,
+				14E0684E1E9621F6000E8AD9 /* Assets.xcassets */,
+				14E068501E9621F6000E8AD9 /* LaunchScreen.storyboard */,
+				14E068531E9621F6000E8AD9 /* Info.plist */,
+				14E068421E9621F6000E8AD9 /* Supporting Files */,
+			);
+			path = charmingNavigationBar;
+			sourceTree = "<group>";
+		};
+		14E068421E9621F6000E8AD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14E068431E9621F6000E8AD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E0683E1E9621F6000E8AD9 /* charmingNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E068561E9621F6000E8AD9 /* Build configuration list for PBXNativeTarget "charmingNavigationBar" */;
+			buildPhases = (
+				14E0683B1E9621F6000E8AD9 /* Sources */,
+				14E0683C1E9621F6000E8AD9 /* Frameworks */,
+				14E0683D1E9621F6000E8AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = charmingNavigationBar;
+			productName = charmingNavigationBar;
+			productReference = 14E0683F1E9621F6000E8AD9 /* charmingNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E068371E9621F6000E8AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					14E0683E1E9621F6000E8AD9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = S6CDT78ALG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14E0683A1E9621F6000E8AD9 /* Build configuration list for PBXProject "charmingNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E068361E9621F6000E8AD9;
+			productRefGroup = 14E068401E9621F6000E8AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E0683E1E9621F6000E8AD9 /* charmingNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E0683D1E9621F6000E8AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E068521E9621F6000E8AD9 /* LaunchScreen.storyboard in Resources */,
+				14E0684F1E9621F6000E8AD9 /* Assets.xcassets in Resources */,
+				14E0684D1E9621F6000E8AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E0683B1E9621F6000E8AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E0684A1E9621F6000E8AD9 /* ViewController.m in Sources */,
+				14E068471E9621F6000E8AD9 /* AppDelegate.m in Sources */,
+				14A5D89D1E99E305009C7DB0 /* ViewControllerWithoutBar2.m in Sources */,
+				145357BE1E97318000C07BD9 /* PopGestureViewController.m in Sources */,
+				145357D41E97738A00C07BD9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				145357CA1E97606C00C07BD9 /* ViewControllerWithScrollView.m in Sources */,
+				14E0685E1E962634000E8AD9 /* Pushed1ViewController.m in Sources */,
+				14A5D8A11E99E5EB009C7DB0 /* MyScrollView.m in Sources */,
+				14E0685B1E962370000E8AD9 /* MyNavigationVC.m in Sources */,
+				1401BCBC1E977DDE00C99E35 /* _FDFullscreenPopGestureRecognizerDelegate.m in Sources */,
+				145357C71E97605700C07BD9 /* ViewControllerWithoutBar.m in Sources */,
+				145357D11E97737300C07BD9 /* UIViewController+FDFullscreenPopGesture.m in Sources */,
+				14E068441E9621F6000E8AD9 /* main.m in Sources */,
+				145357C21E97601C00C07BD9 /* ViewControllerWithBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14E0684B1E9621F6000E8AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E0684C1E9621F6000E8AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E068501E9621F6000E8AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E068511E9621F6000E8AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E068541E9621F6000E8AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E068551E9621F6000E8AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E068571E9621F6000E8AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6CDT78ALG;
+				INFOPLIST_FILE = charmingNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.charmingNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14E068581E9621F6000E8AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6CDT78ALG;
+				INFOPLIST_FILE = charmingNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.charmingNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E0683A1E9621F6000E8AD9 /* Build configuration list for PBXProject "charmingNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E068541E9621F6000E8AD9 /* Debug */,
+				14E068551E9621F6000E8AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E068561E9621F6000E8AD9 /* Build configuration list for PBXNativeTarget "charmingNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E068571E9621F6000E8AD9 /* Debug */,
+				14E068581E9621F6000E8AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E068371E9621F6000E8AD9 /* Project object */;
+}
